@@ -3,3 +3,7 @@ venv/
 get-pip.py
 Pipfile
 Pipfile.lock
+client/public
+client/package-lock.json
+server/node_modules
+server/package-lock.json
