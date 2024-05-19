@@ -4,6 +4,7 @@ import os
 import time
 import psycopg2
 import pandas as pd
+import schedule
 
 def insert_into_database(clinical_trial, eudract_download):
     connection = psycopg2.connect(
@@ -81,7 +82,7 @@ def insert_into_database(clinical_trial, eudract_download):
     finally:
         connection.close()
 
-if __name__ == "__main__":
+def scrape():
     clinical_trial = clinical_trial_scraper.download_csv()
     eudract_download = eudract_scraper.download_csv()
 
@@ -96,3 +97,11 @@ if __name__ == "__main__":
     print("file 2:", eudract_csv)
     
     insert_into_database(clinical_trial_csv, eudract_csv)
+
+if __name__ == "__main__":
+    # Schedule the scraping function to run every 5 minutes
+    schedule.every(3).minutes.do(scrape)
+    # Run the scheduler indefinitely
+    while True:
+        schedule.run_pending()
+        time.sleep(1)  # Sleep for 1 second to avoid high CPU usage
