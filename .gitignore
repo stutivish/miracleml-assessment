@@ -1,2 +1,5 @@
 scraper/__pycache__
 venv/
+get-pip.py
+Pipfile
+Pipfile.lock
