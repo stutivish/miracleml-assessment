@@ -42,6 +42,9 @@ The data pipeline consists of the following components:
     brew install postgresql@14
     ```
 3. **Database Setup**:
+    Before setting up the database, be sure to update your user and password for postgres in the following files: 
+    `scraper/scraper.py`, `server/index.js`
+
     Create the Database
     ```
     createdb clinical_trials
@@ -61,19 +64,25 @@ The data pipeline consists of the following components:
     You will need to have 3 terminal tabs open. One for each directory: `scraper`, `client`, `server`.
 
     In `scraper` directory:
+
     Execute the main script to scrape the data. This will create a pop up on the screen as it it's simulating user actions on Chrome. This is scheduled to call every hour by default. This will save local files of data and insert it into database tables.
-        ```
-        python3 scraper.py
-        ```
+
+    ```
+    python3 scraper.py
+    ```
 
     In `server` directory: 
-    This will start the backend server on port 8080
-        ```
-        node index.js
-        ```
+
+    This will start the backend server on `port 8080`
+
+    ```
+    node index.js
+    ```
     
     In `client` directory: 
-    This will start your local web application at localhost:3000
-        ```
-        npm run start
-        ```
+    
+    This will start your local web application at `localhost:3000`
+
+    ```
+    npm run start
+    ```
