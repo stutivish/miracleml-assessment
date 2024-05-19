@@ -94,4 +94,5 @@ if __name__ == "__main__":
     eudract_csv = os.path.join(eudract_download, 'trials-summary.csv')
     print("file1:", clinical_trial_csv)
     print("file 2:", eudract_csv)
+    
     insert_into_database(clinical_trial_csv, eudract_csv)

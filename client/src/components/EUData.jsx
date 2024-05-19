@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-
-
+import LinePlot from './LinePlot';
 
 const Data = () => {
     const [data, setData] = useState([]);
@@ -9,7 +8,7 @@ const Data = () => {
     useEffect(() => {
         //data will be the string we send from our server
         const fetchData = () => {
-            axios.get('http://localhost:8080').then((resp) => {
+            axios.get('http://localhost:8080/eu').then((resp) => {
                 const data = resp.data;
                 setData(data)
             })
@@ -17,7 +16,7 @@ const Data = () => {
         fetchData();
     }, []);
 
-    return <>{JSON.stringify(data)}</>
+    return <div style={{ textAlign: 'center' }}><LinePlot data={data} /></div>
 }
 
 export default Data;

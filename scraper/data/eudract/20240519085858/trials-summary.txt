@@ -1,0 +1,266 @@
+
+
+EudraCT Number:          2008-006649-18
+Sponsor Protocol Number: 08/0214
+Sponsor Name:            University College London
+Full Title:              CMV TCR Gene Therapy: A Phase I Safety, Toxicity and Feasibility Study of Adoptive Immunotherapy with CMV TCR-transduced Donor-derived T cells for Recipients of Allogeneic Haematopoietic Stem Cell ...
+Start Date:              2011-11-16
+Medical condition:       CMV reactivation/infection in post allogeneic haematopoietic stem cell transplant recipients. Allo-HSCT being performed for underlying haematological malignancy (eg, AML, ALL, NHL, Hodgkin Lymphoma...
+Disease:                 Version: 19.0, SOC Term: 100000004865, Classification Code: 10067859, Term: Allogenic stem cell transplantation, Level: LLT
+Population Age:          Adults
+Gender:                  Male, Female
+Trial protocol:          GB(Prematurely Ended) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2008-006649-18
+
+EudraCT Number:          2006-000653-22
+Sponsor Protocol Number: GART1013
+Sponsor Name:            Moorfields Eye Hospital
+Full Title:              The UK Glaucoma Treatment Study
+Start Date:              2006-07-26
+Medical condition:       Primary open-angle Glaucoma Pseudoexfoliation Glaucoma
+Disease:                 Version: 20.0, SOC Term: 100000004853, Classification Code: 10037118, Term: Pseudoexfoliation glaucoma, Level: LLT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2006-000653-22
+
+EudraCT Number:          2010-023062-40
+Sponsor Protocol Number: PRP-001
+Sponsor Name:            Medivation, Inc.
+Full Title:              A Phase 1/2, First in Human, Single-arm, Open-label Study of Once a Day, Orally Administered Talazoparib (BMN 673) in Patients with Advanced or Recurrent Solid Tumors
+Start Date:              2011-04-19
+Medical condition:       Advanced or recurrent solid tumors for which there is no accepted standard treatment or for which standard treatment has failed.  Patients may also be eligible if they are unable or decline to unde...
+Disease:                 Version: 19.0, SOC Term: 100000004864, Classification Code: 10065147, Term: Malignant solid tumor, Level: LLT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2010-023062-40
+
+EudraCT Number:          2011-005066-38
+Sponsor Protocol Number: CINC424AGB02
+Sponsor Name:            Novartis Pharmaceuticals UK Ltd
+Full Title:              A UK open-label, multicentre, exploratory Phase II study of INC424 for patients with primary myelofibrosis (PMF) or post polycythemia myelofibrosis (PPV MF) or post-essential thrombocythemia myelof...
+Start Date:              2012-03-09
+Medical condition:       primary myelofibrosis (PMF), post polycythemia vera myelofibrosis (PPV MF) or Post essential thrombocythemia myelofibrosis (PET-MF)
+Disease:
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2011-005066-38
+
+EudraCT Number:          2012-002786-35
+Sponsor Protocol Number: 12/0246
+Sponsor Name:            University College London
+Full Title:              A randomised double-blind controlled phase III study to compare the efficacy and safety of intravenous ferric carboxymaltose with placebo in patients with anaemia undergoing major open abdominal su...
+Start Date:              2012-11-05
+Medical condition:       Anaemia
+Disease:                 Version: 19.0, SOC Term: 10005329 - Blood and lymphatic system disorders, Classification Code: 10022972, Term: Iron deficiency anaemia, Level: PT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2012-002786-35
+
+EudraCT Number:          2012-005629-65
+Sponsor Protocol Number: RG_12-269
+Sponsor Name:            University of Birmingham
+Full Title:              Management of Transformed Chronic myeloid leukaemia: Ponatinib and Intensive chemotherapy: a dose finding study
+Start Date:              2014-01-15
+Medical condition:       Chronic Myeloid Leukaemia (CML) in Blast Phase
+Disease:                 Version: 20.1, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10009013, Term: Chronic myeloid leukaemia, Level: PT
+Population Age:          Adolescents, Under 18, Adults
+Gender:                  Male, Female
+Trial protocol:          GB(GB - no longer in EU/EEA) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2012-005629-65
+
+EudraCT Number:          2011-005279-18
+Sponsor Protocol Number: RG_11-164
+Sponsor Name:            University of Birmingham
+Full Title:              A RandoMised study of best Available therapy versus JAK Inhibition in patients with high risk Polycythaemia Vera or Essential Thrombocythaemia who are resistant or intolerant to HydroxyCarbamide.
+Start Date:              2012-02-08
+Medical condition:       Polycythaemia vera
+Essential Thrombocythaemia
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10036057, Term: Polycythaemia vera, Level: PT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10015493, Term: Essential thrombocythaemia, Level: PT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(GB - no longer in EU/EEA) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2011-005279-18
+
+EudraCT Number:          2013-003785-14
+Sponsor Protocol Number: 200249
+Sponsor Name:            Novartis Pharma Services AG
+Full Title:              A Phase I/II Study to Assess the Safety and Efficacy of Pazopanib and MK-3475 in Subjects with Advanced Renal Cell Carcinoma
+Start Date:              2014-03-03
+Medical condition:       Renal Cell Carcinoma
+Disease:                 Version: 20.1, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10073251, Term: Clear cell renal cell carcinoma, Level: PT
+Disease:                 Version: 20.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10050513, Term: Metastatic renal cell carcinoma, Level: PT
+Population Age:          Adults
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2013-003785-14
+
+EudraCT Number:          2013-002505-62
+Sponsor Protocol Number: STH16404
+Sponsor Name:            Sheffield Teaching Hospitals NHS Foundation Trust
+Full Title:              SarCaBon: A randomised phase II trial of Saracatinib versus placebo for cancer-induced bone pain
+Start Date:              2013-11-14
+Medical condition:       Cancer-induced bone pain
+Disease:                 Version: 19.0, SOC Term: 100000004864, Classification Code: 10049038, Term: Metastatic bone pain, Level: LLT
+Population Age:          Adolescents, Under 18, Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2013-002505-62
+
+EudraCT Number:          2013-003488-71
+Sponsor Protocol Number: OVG-2013/04
+Sponsor Name:            University of Oxford
+Full Title:              A pilot study of the impact of BCG administration on the immunogenicity of serogroup C meningococcal conjugate vaccine in healthy infants
+Start Date:              2013-12-12
+Medical condition:       Vaccine responses
+Disease:
+Population Age:          Newborns, Infants and toddlers, Under 18
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2013-003488-71
+
+EudraCT Number:          2011-003025-10
+Sponsor Protocol Number: VIVID
+Sponsor Name:            King's College London
+Full Title:              Effect of active vitamin-D treatment on left ventricular hypertrophy in patients with type-2 diabetes and stage-3 chronic kidney disease.
+Start Date:              2011-11-08
+Medical condition:       Left ventricular hypertrophy, type 2 diabetes, chronic kidney disease.
+Disease:                 Version: 20.0, SOC Term: 10038359 - Renal and urinary disorders, Classification Code: 10064848, Term: Chronic kidney disease, Level: PT
+Disease:                 Version: 20.0, SOC Term: 10007541 - Cardiac disorders, Classification Code: 10047295, Term: Ventricular hypertrophy, Level: PT
+Disease:                 Version: 20.0, SOC Term: 100000004861, Classification Code: 10012612, Term: Diabetes mellitus non insulin-dep, Level: LLT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2011-003025-10
+
+EudraCT Number:          2010-020841-29
+Sponsor Protocol Number: ADAPT
+Sponsor Name:            King`s College London
+Full Title:              The role of anti-IgE (omalizumab) in the management of severe recalcitrant paediatric atopic eczema
+Start Date:              2011-07-07
+Medical condition:       Severe eczema in children
+Disease:                 Version: 19.0, SOC Term: 100000004858, Classification Code: 10003641, Term: Atopic eczema, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 100000004858, Classification Code: 10014189, Term: Eczema allergic atopic, Level: LLT
+Population Age:          Children, Adolescents, Under 18, Adults
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2010-020841-29
+
+EudraCT Number:          2011-000919-22
+Sponsor Protocol Number: OMB114578
+Sponsor Name:            University of Liverpool
+Full Title:              RIAltO: A Randomised Investigation of Alternative Ofatumumab-containing regimens in less fit patients with CLL
+Start Date:              2011-09-14
+Medical condition:       Chronic Lymphocytic Leukaemia 
+Disease:                 Version: 21.1, SOC Term: 100000004864, Classification Code: 10008993, Term: Chronic lymphoid leukaemia, Level: LLT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(GB - no longer in EU/EEA) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2011-000919-22
+
+EudraCT Number:          2011-003254-90
+Sponsor Protocol Number: CLFG316A2204
+Sponsor Name:            Novartis Pharma Services AG
+Full Title:              A randomised, active-controlled, open-label, multiple-dose, proof-of-concept study of intravitreal LFG316 in patients with active non-infectious intermediate-, posterior-, or panuveitis requiring s...
+Start Date:              2012-05-14
+Medical condition:       Active non-infectious intermediate-, posterior-, or panuveitis requiring systemic immunosuppressive therapy
+Disease:                 Version: 20.0, SOC Term:  100000161411, Classification Code: 10022557, Term: Intermediate uveitis, Level: LLT
+Disease:                 Version: 20.0, SOC Term:  100000014975, Classification Code: 10033687, Term: Panuveitis, Level: LLT
+Disease:                 Version: 20.0, SOC Term:  100000015065, Classification Code: 10036370, Term: Posterior uveitis, Level: LLT
+Disease:                 Version: 20.0, SOC Term:  100000014975, Classification Code: 10066681, Term: Acute uveitis, Level: LLT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2011-003254-90
+
+EudraCT Number:          2013-003301-26
+Sponsor Protocol Number: IAFIPF001
+Sponsor Name:            Newcastle Upon Tyne Hospitals NHS Foundation Trust
+Full Title:              A randomised placebo-controlled pilot trial of omeprazole in idiopathic pulmonary fibrosis (IPF)
+Start Date:              2013-09-20
+Medical condition:       Idiopathic Pulmonary Fibrosis (IPF)
+Disease:                 Version: 19.0, SOC Term: 10038738 - Respiratory, thoracic and mediastinal disorders, Classification Code: 10021240, Term: Idiopathic pulmonary fibrosis, Level: PT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2013-003301-26
+
+EudraCT Number:          2014-004909-33
+Sponsor Protocol Number: LCTU122
+Sponsor Name:            Manchester University NHS Foundation Trust
+Full Title:              Thrombin Inhibition Preoperatively in Early Breast Cancer
+Start Date:              2015-09-21
+Medical condition:       Breast Cancer
+Disease:                 Version: 20.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10006187, Term: Breast cancer, Level: PT
+Disease:                 Version: 20.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10057654, Term: Breast cancer female, Level: PT
+Population Age:          Adults, Elderly
+Gender:                  Female
+Trial protocol:          GB(GB - no longer in EU/EEA) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2014-004909-33
+
+EudraCT Number:          2016-000376-26
+Sponsor Protocol Number: ZPL521/101
+Sponsor Name:            Ziarco Pharma Ltd
+Full Title:              A Randomised, Adaptive Design, Double-Blind (3rd Party Open), Placebo Controlled, Sequential Group Study to  Determine the Safety, Tolerability, Pharmacokinetics and Efficacy of Twice Daily Applica...
+Start Date:              2016-05-09
+Medical condition:       Atopic Dermatitis
+Disease:                 Version: 18.1, SOC Term: 100000004858, Classification Code: 10003639, Term: Atopic dermatitis, Level: LLT
+Population Age:          Adults
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2016-000376-26
+
+EudraCT Number:          2020-001109-22
+Sponsor Protocol Number: PBGM01-001
+Sponsor Name:            Passage Bio, Inc.
+Full Title:              A Phase 1/2 Open-Label, Multicenter, Dose Ranging and Confirmatory Study to Assess the Safety, Tolerability and Efficacy of a Single Dose of PBGM01 Delivered into the Cisterna Magna of Pediatric Su...
+Start Date:              Information not available in EudraCT
+Medical condition:       GM1 gangliosidosis (GM1) is an autosomal recessive disorder that results from mutations in the human galactosidase beta 1 gene (GLB1), which encodes beta-galactosidase (β-gal).
+Disease:
+Population Age:          Infants and toddlers, Under 18
+Gender:                  Male, Female
+Trial protocol:          GB(GB - no longer in EU/EEA) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2020-001109-22
+
+EudraCT Number:          2017-001351-31
+Sponsor Protocol Number: ED17/93260
+Sponsor Name:            University of Leeds
+Full Title:              A double-blind, randomized, placebo-controlled phase II pilot trial investigating efficacy, safety and feasibility of 11β-hydroxysteroid dehydrogenase type 1 inhibition by AZD4017 to improve skin f...
+Start Date:              2017-09-04
+Medical condition:       Type 2 diabetes
+Disease:                 Version: 20.0, SOC Term: 10027433 - Metabolism and nutrition disorders, Classification Code: 10067585, Term: Type 2 diabetes mellitus, Level: PT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2017-001351-31
+
+EudraCT Number:          2016-001223-31
+Sponsor Protocol Number: KAISII
+Sponsor Name:            King's College Hospital NHS Foundation Trust
+Full Title:              Incidence of Invasive Fungal Disease in Patients receiving Immunosuppressive Therapy, Intensive Chemotherapy or Reduced Intensity Haematopoietic Stem Cell Transplantation on Posaconazole Prophylaxis
+Start Date:              2016-10-11
+Medical condition:       Aplastic Anaemia, Myelodysplastic syndromes, Acute Myeloid Leukaemia undergoing immunosuppression therapy, high dose chemotherapy or reduced intensity stem cell transplantation
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10038271, Term: Refractory anaemia with excess blasts in transformation, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10042613 - Surgical and medical procedures, Classification Code: 10059041, Term: Allogeneic peripheral haematopoietic stem cell transplant, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10042613 - Surgical and medical procedures, Classification Code: 10067862, Term: Allogeneic stem cell transplantation, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10038270, Term: Refractory anaemia with an excess of blasts, Level: PT
+Disease:                 Version: 19.0, SOC Term: 10005329 - Blood and lymphatic system disorders, Classification Code: 10010776, Term: Constitutional aplastic anaemia, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10005329 - Blood and lymphatic system disorders, Classification Code: 10068063, Term: Aplastic anaemia relapse, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10005329 - Blood and lymphatic system disorders, Classification Code: 10036699, Term: Primary idiopathic aplastic anaemia, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10000880, Term: Acute myeloid leukaemia, Level: PT
+Disease:                 Version: 19.0, SOC Term: 10042613 - Surgical and medical procedures, Classification Code: 10001756, Term: Allogenic bone marrow transplantation therapy, Level: PT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10000884, Term: Acute myeloid leukaemia NOS, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10005329 - Blood and lymphatic system disorders, Classification Code: 10032510, Term: Other specified aplastic anaemias, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10066355, Term: Treatment related acute myeloid leukaemia, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10060355, Term: Acute myeloid leukaemia in remission, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10028532, Term: Myelodysplasia, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10029104 - Neoplasms benign, malignant and unspecified (incl cysts and polyps), Classification Code: 10066764, Term: Acute myeloid leukaemia progression, Level: LLT
+Disease:                 Version: 19.0, SOC Term: 10005329 - Blood and lymphatic system disorders, Classification Code: 10002967, Term: Aplastic anaemia, Level: PT
+Population Age:          Adults, Elderly
+Gender:                  Male, Female
+Trial protocol:          GB(Completed) 
+Link:                    https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:2016-001223-31

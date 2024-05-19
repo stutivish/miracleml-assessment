@@ -11,10 +11,10 @@ const pool = new Pool({
     database: 'clinical_trials',
     port: 5432,
   });
-  
-  app.get('/', async (req, res) => {
+
+app.get('/us', async (req, res) => {
     try {
-      const { rows } = await pool.query('SELECT * FROM combined');
+      const { rows } = await pool.query('SELECT * FROM us');
       res.json(rows);
     } catch (err) {
       console.error('Error executing query', err);
@@ -22,9 +22,37 @@ const pool = new Pool({
     }
   });
 
-// app.get('/', (req, res) => {
-//     res.send('Hello from our server!')
-// })
+  app.get('/eu', async (req, res) => {
+    try {
+      const { rows } = await pool.query('SELECT * FROM eu');
+      res.json(rows);
+    } catch (err) {
+      console.error('Error executing query', err);
+      res.status(500).json({ error: 'Internal server error' });
+    }
+  });
+  
+  app.get('/combined', async (req, res) => {
+    const queryType = req.query.type || null;
+    const queryTerm = req.query.term || null
+    console.log('term:', queryTerm)
+    
+    try {
+        let query;
+        if (queryType === 'conditions') {
+            query = `SELECT * FROM combined WHERE LOWER(conditions) LIKE '%${queryTerm}%'`;
+        } else {
+            query = 'SELECT * FROM combined';
+        }
+      const { rows } = await pool.query(query);
+      res.json(rows);
+    } catch (err) {
+      console.error('Error executing query', err);
+      res.status(500).json({ error: 'Internal server error' });
+    }
+  });
+
+
 
 app.listen(8080, () => {
     console.log('server listening on port 8080')

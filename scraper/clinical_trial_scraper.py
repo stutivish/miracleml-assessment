@@ -80,32 +80,6 @@ def download_csv():
     options.add_experimental_option("prefs", prefs)
     
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    
-    # Navigate to the ClinicalTrials.gov search results page
-    # driver.get(url)
-
-    # actions = ActionChains(driver)
-    
-    # # Click on the export button 
-    # wait = WebDriverWait(driver, 20)
-    # export_button_xpath = "//*[@id='main-content']/ctg-search-results/div[2]/section/div[2]/div/div/div[2]/div/ctg-search-action-bar/div/div[1]/div[1]/ctg-download/button"
-    # export_button = wait.until(EC.element_to_be_clickable((By.XPATH, export_button_xpath)))
-    # export_button.click()
-
-    # # Limit results to top 10 
-    # top_button_xpath = "//*[@id='download']/div/div/div/div/div[1]/section[2]/div[4]/label"
-    # top_button = wait.until(EC.element_to_be_clickable((By.XPATH, top_button_xpath)))
-    # # Scroll the element into view
-    # actions.move_to_element(top_button).perform()
-    # top_button.click()
-
-    
-    # # Click the Download button
-    # submit_button_xpath = "//*[@id='download']/div/div/div/div/div[2]/ul/li[1]/button"
-    # submit_button = wait.until(EC.element_to_be_clickable((By.XPATH, submit_button_xpath)))
-    # # Scroll the element into view
-    # actions.move_to_element(submit_button).perform()
-    # submit_button.click()
 
     download_csv_step1(driver)
     download_csv_step2(driver)

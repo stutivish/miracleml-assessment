@@ -54,12 +54,13 @@ def convert_to_csv(file_path):
         csv_trial = {}
         lines = trial.split('\n')
         for line in lines: 
-            key, value = [part.strip() for part in line.split(':', 1)]
-            # print("parts:", parts)
-            # [key, value] = line.split(':').strip()
-            # key = parts[0]
-            # value = parts[1]
-            csv_trial[key] = value
+            parts = [part.strip() for part in line.split(':', 1)]
+            if len(parts) == 2:
+                key = parts[0]
+                value = parts[1]
+                csv_trial[key] = value
+            else: 
+                break
         csv_trials.append(csv_trial)
 
     # df = pd.read_fwf(file_path)
