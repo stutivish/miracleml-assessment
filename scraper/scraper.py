@@ -7,10 +7,9 @@ import pandas as pd
 
 def insert_into_database(clinical_trial, eudract_download):
     connection = psycopg2.connect(
-        host=os.environ['DB_HOST'],
-        user=os.environ['DB_USER'],
-        password=os.environ['DB_PASSWORD'],
-        dbname=os.environ['DB_NAME']
+        host="localhost",
+        user="stuti",
+        dbname="clinical_trials"
     )
     
     try:
@@ -26,7 +25,7 @@ def insert_into_database(clinical_trial, eudract_download):
                     ON CONFLICT (study_id) DO UPDATE SET
                     study_title = EXCLUDED.study_title,
                     conditions = EXCLUDED.conditions,
-                    sponsor = EXCLUDED.sponsor,
+                    sponsor = EXCLUDED.sponsor
                     """,
                     (row['NCT Number'], row['Study Title'], row['Conditions'], row['Sponsor'])
                 )
@@ -36,12 +35,12 @@ def insert_into_database(clinical_trial, eudract_download):
             for index, row in eu_data.iterrows():
                 cursor.execute(
                     """
-                    INSERT INTO us (study_id, study_title, conditions, sponsor)
+                    INSERT INTO eu (study_id, study_title, conditions, sponsor)
                     VALUES (%s, %s, %s, %s)
                     ON CONFLICT (study_id) DO UPDATE SET
                     study_title = EXCLUDED.study_title,
                     conditions = EXCLUDED.conditions,
-                    sponsor = EXCLUDED.sponsor,
+                    sponsor = EXCLUDED.sponsor
                     """,
                     (row['EudraCT Number'], row['Full Title'], row['Medical condition'], row['Sponsor Name'])
                 )
@@ -55,7 +54,11 @@ def insert_into_database(clinical_trial, eudract_download):
                     LOWER(study_title) as study_title,
                     conditions,
                     sponsor
-                FROM us;
+                FROM us
+                ON CONFLICT (study_id) DO UPDATE SET
+                study_title = EXCLUDED.study_title,
+                conditions = EXCLUDED.conditions,
+                sponsor = EXCLUDED.sponsor;
                 """
             )
             cursor.execute(
@@ -66,7 +69,11 @@ def insert_into_database(clinical_trial, eudract_download):
                     LOWER(study_title) as study_title,
                     conditions,
                     sponsor
-                FROM eu;
+                FROM eu
+                ON CONFLICT (study_id) DO UPDATE SET
+                study_title = EXCLUDED.study_title,
+                conditions = EXCLUDED.conditions,
+                sponsor = EXCLUDED.sponsor;
                 """
             )
 
@@ -83,6 +90,8 @@ if __name__ == "__main__":
     while not os.path.exists(clinical_trial) or not os.path.exists(eudract_download):
         time.sleep(1)  # Wait for 1 second
 
-    print("file1:", os.path.join(clinical_trial, 'ctg_studies.csv'))
-    print("file 2:", os.path.join(eudract_download, 'trials-summary.csv'))
-    # insert_into_database(clinical_trial, eudract_download)
+    clinical_trial_csv = os.path.join(clinical_trial, 'ctg-studies.csv')
+    eudract_csv = os.path.join(eudract_download, 'trials-summary.csv')
+    print("file1:", clinical_trial_csv)
+    print("file 2:", eudract_csv)
+    insert_into_database(clinical_trial_csv, eudract_csv)
