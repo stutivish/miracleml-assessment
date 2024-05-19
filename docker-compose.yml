@@ -1,0 +1,39 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:13
+    container_name: db
+    environment:
+      POSTGRES_DB: clinical_trials
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  scraper:
+    build:
+      context: ./scraper
+    container_name: scraper
+    environment:
+      DB_HOST: db
+      DB_USER: testuser
+      DB_PASSWORD: testpassword
+      DB_NAME: clinical_trials
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    environment:
+      DB_HOST: db
+      DB_USER: testuser
+      DB_PASSWORD: testpassword
+      DB_NAME: clinical_trials
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
