@@ -1,8 +1,5 @@
 requests
-time
-os
 selenium
 webdriver_manager
-datetime
 pandas
 psycopg2
