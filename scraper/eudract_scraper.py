@@ -63,7 +63,6 @@ def convert_to_csv(file_path):
                 break
         csv_trials.append(csv_trial)
 
-    # df = pd.read_fwf(file_path)
     df = pd.DataFrame(csv_trials)
 
     # Save the DataFrame as CSV

@@ -5,6 +5,7 @@ const { Pool } = require('pg');
 
 app.use(cors())
 
+// connect to database
 const pool = new Pool({
     user: 'stuti',
     host: 'localhost',
@@ -12,6 +13,7 @@ const pool = new Pool({
     port: 5432,
   });
 
+// API Calls
 app.get('/us', async (req, res) => {
     try {
       const { rows } = await pool.query('SELECT * FROM us');
@@ -33,9 +35,9 @@ app.get('/us', async (req, res) => {
   });
   
   app.get('/combined', async (req, res) => {
+    // utilize query to filter data in combined 
     const queryType = req.query.type || null;
     const queryTerm = req.query.term || null
-    console.log('term:', queryTerm)
     
     try {
         let query;

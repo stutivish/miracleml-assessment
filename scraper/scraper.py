@@ -100,8 +100,14 @@ def scrape():
 
 if __name__ == "__main__":
     # Schedule the scraping function to run every 5 minutes
-    schedule.every(3).minutes.do(scrape)
-    # Run the scheduler indefinitely
+    job = schedule.every(12).hours.do(scrape)
+
+    # # Cancel the scheduled job
+    # schedule.cancel_job(job)
+
+    # # Run the scheduler indefinitely
     while True:
         schedule.run_pending()
         time.sleep(1)  # Sleep for 1 second to avoid high CPU usage
+
+    # scrape()

@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import LinePlot from './LinePlot';
 import Table from './Table';
 
 const healthConditions = ['cancer', 'diabetes', 'smoking', 'psoriasis']
@@ -11,11 +10,14 @@ const Data = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
+                // map condition to response from api 
                 const promises = healthConditions.map(async (condition) => {
                     const response = await axios.get(`http://localhost:8080/combined?type=conditions&term=${condition}`);
                     return { [condition]: response.data };
                 });
 
+                // transform response into readable map
+                // where key is term and value is data response
                 const results = await Promise.all(promises);
                 const data = results.reduce((acc, curr) => {
                     const key = Object.keys(curr)[0];
@@ -35,7 +37,6 @@ const Data = () => {
     return (
         <div>
             {Object.entries(dataMap).map(([condition, results]) => {
-                console.log('result:', results);
                 return (
                     <div key={condition}>
                         <h2>{`${condition}: ${results.length}`}</h2>
